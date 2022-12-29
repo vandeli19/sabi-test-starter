@@ -8,8 +8,32 @@
     <artifactId>sabi-test-starter</artifactId>
     <version>0.0.1-RELEASE</version>
 
-    <name>Sabi Test Starter</name>
+    <name>sabi-test-starter</name>
     <description>Sabi Test Service</description>
+    <url>https://github.com/vandeli19/sabi-test-starter</url>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>vandeli</name>
+            <email>vandeli@github.com</email>
+            <organization>sabi</organization>
+            <organizationUrl>https://github.com/</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/vandeli19/sabi-test-starter.git</connection>
+        <developerConnection>scm:git:ssh://github.com/vandeli19/sabi-test-starter.git</developerConnection>
+        <url>http://github.com/vandeli19/sabi-test-starter</url>
+    </scm>
+
 
     <parent>
         <groupId>org.springframework.boot</groupId>
