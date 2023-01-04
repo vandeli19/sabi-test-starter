@@ -4,35 +4,35 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.vandeli19.starter</groupId>
+    <groupId>io.github.vandeli19</groupId>
     <artifactId>sabi-test-starter</artifactId>
-    <version>0.0.1-RELEASE</version>
+    <version>1.0.0</version>
 
     <name>sabi-test-starter</name>
     <description>Sabi Test Service</description>
     <url>https://github.com/vandeli19/sabi-test-starter</url>
 
-    <licenses>
-        <license>
-            <name>The Apache Software License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-        </license>
-    </licenses>
+<!--    <licenses>-->
+<!--        <license>-->
+<!--            <name>The Apache Software License, Version 2.0</name>-->
+<!--            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>-->
+<!--        </license>-->
+<!--    </licenses>-->
 
-    <developers>
-        <developer>
-            <name>vandeli</name>
-            <email>vandeli@github.com</email>
-            <organization>sabi</organization>
-            <organizationUrl>https://github.com/</organizationUrl>
-        </developer>
-    </developers>
+<!--    <developers>-->
+<!--        <developer>-->
+<!--            <name>vandeli</name>-->
+<!--            <email>vandeli@github.com</email>-->
+<!--            <organization>sabi</organization>-->
+<!--            <organizationUrl>https://github.com/</organizationUrl>-->
+<!--        </developer>-->
+<!--    </developers>-->
 
-    <scm>
-        <connection>scm:git:git://github.com/vandeli19/sabi-test-starter.git</connection>
-        <developerConnection>scm:git:ssh://github.com/vandeli19/sabi-test-starter.git</developerConnection>
-        <url>http://github.com/vandeli19/sabi-test-starter</url>
-    </scm>
+<!--    <scm>-->
+<!--        <connection>scm:git:git://github.com/vandeli19/sabi-test-starter.git</connection>-->
+<!--        <developerConnection>scm:git:ssh://github.com/vandeli19/sabi-test-starter.git</developerConnection>-->
+<!--        <url>http://github.com/vandeli19/sabi-test-starter</url>-->
+<!--    </scm>-->
 
 
     <parent>
@@ -53,9 +53,24 @@
             <artifactId>spring-boot-autoconfigure</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>
